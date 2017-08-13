@@ -1,6 +1,6 @@
 {
   "name": "react-avatar-stack",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ReactJS component that will stack the child that you pass to it and add `+n` placeholder to it.",
   "main": "lib/react-avatar-stack.min.js",
   "scripts": {
@@ -38,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ydeshayes/googlePlaceAutocomplete.git"
+    "url": "https://github.com/ydeshayes/react-avatar-stack.git"
   },
   "keywords": [
     "React",
@@ -48,9 +48,9 @@
   ],
   "author": "Yann Deshayes",
   "bugs": {
-    "url": "https://github.com/ydeshayes/googlePlaceAutocomplete/issues"
+    "url": "https://github.com/ydeshayes/react-avatar-stack/issues"
   },
-  "homepage": "https://github.com/ydeshayes/googlePlaceAutocomplete",
+  "homepage": "https://github.com/ydeshayes/react-avatar-stack",
   "dependencies": {
     "styled-components": "^2.1.2"
   }
