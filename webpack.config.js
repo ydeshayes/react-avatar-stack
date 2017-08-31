@@ -25,7 +25,8 @@ const config = {
   },
   externals: {
     'react': 'react',
-    'prop-types': 'prop-types'
+    'prop-types': 'prop-types',
+	'styled-components': 'styled-components' 
   },
   module: {
     rules: [
