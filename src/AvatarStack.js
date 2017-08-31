@@ -45,17 +45,17 @@ const AvatarStack = ({
   <Layout avatarSize={avatarSize}>
     {
       Array.isArray(children)
-      ? children.slice(0, maxAvatarNumber + 1)
-        .map((child, index) => (
-          <Avatar
-            index={nextOverlapPrevious ? index : -index}
-            key={index}>
-            {child}
-          </Avatar>
-        ))
-      : <Avatar>
-        {children}
-      </Avatar>
+        ? children.slice(0, maxAvatarNumber + 1)
+          .map((child, index) => (
+            <Avatar
+              index={nextOverlapPrevious ? index : -index}
+              key={index}>
+              {child}
+            </Avatar>
+          ))
+        : <Avatar>
+          {children}
+        </Avatar>
     }
     {
       children.length > maxAvatarNumber
